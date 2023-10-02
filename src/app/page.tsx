@@ -1,9 +1,12 @@
 import Header from '@/components/Header/Header'
+import ProjectSection from '@/components/ProjectsSection/ProjectsSection'
 export default function Home() {
   return (
     <>
       <Header/>
-      <main>MAIN</main>
+      <main>
+        <ProjectSection/>
+      </main>
       <footer>Footer</footer>
     </>
     
