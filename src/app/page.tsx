@@ -11,7 +11,6 @@ export default function Home() {
         <AboutSection />
         <ContactsSection />
       </main>
-      <footer>Footer</footer>
     </>
     
     

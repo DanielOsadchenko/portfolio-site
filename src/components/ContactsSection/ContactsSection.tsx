@@ -26,7 +26,7 @@ return ( <section className="container mx-auto px-6 md:px-10 xl:px-20">
     
   </div>
 
-  <ul className="flex flex-col flex-nowrap gap-3 mb-3 md:flex-row md:justify-between md:items-center md:mb-6">
+  <ul className="flex flex-col flex-nowrap gap-3 mb-3 md:flex-row md:justify-between md:items-center md:mb-10">
     {contacts.map((contact, index) => {
       return (<li key={index}>
         <a href={contact.url} className="flex flex-nowrap gap-3 items-center ">
