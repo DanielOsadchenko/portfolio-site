@@ -1,3 +1,4 @@
+import AboutSection from '@/components/AboutSection/AboutSection'
 import Header from '@/components/Header/Header'
 import ProjectSection from '@/components/ProjectsSection/ProjectsSection'
 export default function Home() {
@@ -5,7 +6,8 @@ export default function Home() {
     <>
       <Header/>
       <main>
-        <ProjectSection/>
+        <ProjectSection />
+        <AboutSection/>
       </main>
       <footer>Footer</footer>
     </>

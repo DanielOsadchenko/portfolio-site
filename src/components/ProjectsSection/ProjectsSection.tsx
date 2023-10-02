@@ -14,15 +14,17 @@ export default function ProjectSection() {
   }
   
   return (
-    <div className="container mx-auto px-6 md:px-10 xl:px-20">
-      <SectionTitle title={"Projects"} number={1} id={"#Projects"} />
+    <section className="container mx-auto px-6 md:px-10 xl:px-20">
+      <SectionTitle title={"Projects"} number={1} id={"Projects"} />
+
+      <Masonry
+        breakpointCols={breakpoints}
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column">
       <div>
-        <Masonry
-  breakpointCols={breakpoints}
-  className="my-masonry-grid"
-  columnClassName="my-masonry-grid_column">
-  <div><Image src={projectsImg} alt="Projects image" priority={true} className="w-full" /></div>
-        {projects.map((project, index) => {
+        <Image src={projectsImg} alt="Projects image" priority={true} className="w-full" />
+      </div>
+      {projects.map((project, index) => {
           return (<div key={index}>
             <div className="px-3 py-3 bg-cWhiteDark rounded-m">
               <h3 className="text-base text-cVioletLight font-medium mb-4">{project.title}</h3>
@@ -39,12 +41,8 @@ export default function ProjectSection() {
         
             </div>
           </div>)
-        })}
-</Masonry>
-        
-        
-
-      </div>
-    </div>
+      })}
+      </Masonry>
+    </section>
   )
 }

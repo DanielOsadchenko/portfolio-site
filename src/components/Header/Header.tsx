@@ -36,8 +36,8 @@ export default function Header() {
       <nav className="w-3/4 md:w-full ml-auto  md:flex md:gap-5 md:items-center md:mb-20 xl:w-1/2">
         <Image  src={headerCont} alt="header content image" className="hidden md:block w-1/2 xl:w-full" priority={true}/>
         <ul className="flex flex-nowrap flex-col justify-end align-bottom w-full md:w-1/2 xl:absolute xl:bottom-0 xl:left-0 xl:bg-cWhiteTransp xl:backdrop-blur-xl xl:rounded-xl xl:w-1/3 xl:px-6 xl:py-6">
-          <li><a href="#" className="bg-cAccent text-sm rounded-m px-3 py-2 mt-4 text-cWhite flex justify-center  ">Projects <Image src={linkImg} alt="link" className="ml-3 w-2 h-2" /></a></li>
-          <li><a href="#" className="bg-cAccent text-sm rounded-m px-3 py-2 mt-4 text-cWhite flex justify-center  ">About me <Image src={linkImg} alt="link" className="ml-3 w-2 h-2" /></a></li>
+          <li><a href="#Projects" className="bg-cAccent text-sm rounded-m px-3 py-2 mt-4 text-cWhite flex justify-center  ">Projects <Image src={linkImg} alt="link" className="ml-3 w-2 h-2" /></a></li>
+          <li><a href="#About" className="bg-cAccent text-sm rounded-m px-3 py-2 mt-4 text-cWhite flex justify-center  ">About me <Image src={linkImg} alt="link" className="ml-3 w-2 h-2" /></a></li>
           <li><a href="#" className="bg-cAccent text-sm rounded-m px-3 py-2 mt-4 text-cWhite flex justify-center ">Contacts <Image src={linkImg} alt="link" className="ml-3 w-2 h-2"/></a></li>
 
         </ul>
