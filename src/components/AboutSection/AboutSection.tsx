@@ -25,13 +25,13 @@ export default function AboutSection() {
   return (<section className="container mx-auto px-6 md:px-10 xl:px-20">
     <SectionTitle title={"About me"} number={2} id={"About"} />
     <div className="md:flex md:justify-between md:align-middle md:gap-5">
-      <Image src={about} alt="about" className="w-full md:w-1/2" />
+      <Image src={about} alt="about" className="w-full md:w-1/2" loading="lazy" quality={80}/>
       <p className="text-cVioletDark text-sm md:text-base xl:text-xl font-light md:w-1/2 md:my-auto">I have a strong technical competence in Fullstack development with a focus on JavaScript, React, and Redux for the frontend, and Node.js, MongoDB, Express for the backend. My experience includes participation in the development of charitable projects, as well as team leader position in fast project and active involvement in project architecture. I possess skills in managing repositories on GitHub, deploying applications, and providing accurate time estimates for tasks. I have a work permit. I open to remote work also I open to relocate.</p>
     </div>
 
     <SectionSubTitle title={"Languages"} number={2.1} />
     <div className="md:flex md:flex-nowrap md:flex-row-reverse gap-5">
-      <Image src={lang} alt="languages" className="w-full md:w-1/2" />
+      <Image src={lang} alt="languages" className="w-full md:w-1/2" loading="lazy" quality={80}/>
       <ul className="md:w-1/2 md:my-auto">
         <li className="mb-3 xl:mb-6 flex flex-nowrap gap-3">
           <p className="inline-block py-1 md:py-3 bg-cVioletDarkTransp text-cWhite w-full text-xs md:text-sm xl:text-base text-center rounded-tl-sm rounded-bl-sm md:rounded-tl-m md:rounded-bl-m">English</p>
@@ -53,7 +53,7 @@ export default function AboutSection() {
       className="my-masonry-grid"
       columnClassName="my-masonry-grid_column"
     >
-      <div><Image src={education} alt="education" className="w-full"/></div>
+      <div><Image src={education} alt="education" className="w-full" loading="lazy" quality={80}/></div>
       
       <div className="px-4 py-4 bg-cWhiteDark rounded-m">
         <h3 className="mb-2 text-sm text-cVioletDark md:text-base font-medium">Zaporizhzhia National University</h3>
@@ -83,7 +83,7 @@ export default function AboutSection() {
       className="my-masonry-grid"
       columnClassName="my-masonry-grid_column"
     >
-      <div><Image src={certifications} alt="certifications" className="w-full"/></div>
+      <div><Image src={certifications} alt="certifications" className="w-full" loading="lazy" quality={80}/></div>
       
       <div className="px-4 py-4 bg-cWhiteDark rounded-m text-center">
         <h3 className="mb-2 text-sm text-cVioletDark md:text-base font-medium">Udemy Front-end Web Development Course</h3>

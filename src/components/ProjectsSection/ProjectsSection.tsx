@@ -22,7 +22,7 @@ export default function ProjectSection() {
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column">
       <div>
-        <Image src={projectsImg} alt="Projects image" priority={true} className="w-full" />
+        <Image src={projectsImg} alt="Projects image" priority={true} className="w-full" loading="lazy" quality={80}/>
       </div>
       {projects.map((project, index) => {
           return (<div key={index}>
