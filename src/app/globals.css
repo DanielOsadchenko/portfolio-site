@@ -25,3 +25,18 @@ html {
   /* change div to reference your elements you put in <Masonry> */
   margin-bottom: 20px;
 }
+
+a {
+  transition: all 250ms ease-in-out;
+}
+a:hover,
+a:focus {
+  transform: scale(1.03);
+}
+.contactLink > img {
+  transition: all 250ms ease-in-out;
+}
+.contactLink:hover > img,
+.contactLink:focus > img {
+  transform: scale(1.05);
+}

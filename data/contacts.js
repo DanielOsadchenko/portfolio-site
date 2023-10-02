@@ -1,11 +1,11 @@
-import github from "../public/svgs/github.svg";
-import linkedin from "../public/svgs/linkedin.svg";
-import telegram from "../public/svgs/telegram.svg";
-import whatsapp from "../public/svgs/whatsapp.svg";
+import github from "../public/github.svg";
+import linkedin from "../public/linkedin.svg";
+import telegram from "../public/telegram.svg";
+import whatsapp from "../public/whatsapp.svg";
 
-import mail from "../public/svgs/mail.svg";
-import phone from "../public/svgs/phone.svg";
-import location from "../public/svgs/location.svg";
+import mail from "../public/Letter.svg";
+import phone from "../public/phone.svg";
+import location from "../public/mail.svg";
 
 export const socialMedia = [
   {
