@@ -3,7 +3,7 @@ export const projects = [
     title: "Steel Hugs",
     description:
       "Created as part of Baza Trainee Ukraine. A website to assist military personnel. I served as the team leader of the developers. Managed repositories, assisted others in resolving issues. Collaborated with design teams, testers, and managers.",
-    liveLink: "https://obijmy59.online",
+    liveLink: "https://steel-hugs-landing.vercel.app",
     githubLink: "https://github.com/baza-trainee/steel-hugs-landing",
     tags: ["JavaScript", "React", "Redux"],
   },
